@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\r\n\ The\ ATM\ controller\ -\ the\ process\ method\ is\ passed\r\n\ methods\ in\ the\ model\ depending\ what\ was\ pressed.\r\n
+comment1.params=
+comment1.target=Controller()
+comment2.params=action
+comment2.target=void\ process(java.lang.String)
+comment2.text=\r\n\ This\ is\ how\ the\ View\ talks\ to\ the\ Controller\r\n\ AND\ how\ the\ Controller\ talks\ to\ the\ Model\r\n\ This\ method\ is\ called\ by\ the\ View\ to\ respond\ to\ some\ user\ interface\ event\r\n\ The\ controller's\ job\ is\ to\ decide\ what\ to\ do.\ In\ this\ case\ it\ uses\ a\ switch\ \r\n\ statement\ to\ select\ the\ right\ method\ in\ the\ Model.\r\n
+numComments=3

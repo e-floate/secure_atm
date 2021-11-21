@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ ATM\ Main\ Class\ -\ \r\n\ The\ code\ here\ creates\ the\ GUI\ and\ links\ the\ Model-View-Controller\r\n\ components.\ 2\ default\ bank\ accounts\ are\ also\ created\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=window
+comment2.target=void\ start(javafx.stage.Stage)
+numComments=3

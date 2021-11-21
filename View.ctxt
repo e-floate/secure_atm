@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=View
+comment1.params=
+comment1.target=View()
+comment2.params=window
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ start\ is\ called\ from\ Main,\ to\ start\ the\ GUI\ up\r\n\ Note\ that\ it\ is\ important\ to\ create\ controls\ etc\ here\ and\r\n\ not\ in\ the\ constructor\ (or\ as\ initialisations\ to\ instance\ variables),\r\n\ because\ we\ need\ things\ to\ be\ initialised\ in\ the\ right\ order\r\n
+comment3.params=event
+comment3.target=void\ buttonClicked(javafx.event.ActionEvent)
+comment3.text=\r\n\ This\ is\ how\ the\ View\ talks\ to\ the\ Controller\r\n\ This\ method\ is\ called\ when\ a\ button\ is\ pressed\r\n\ It\ fetches\ the\ label\ on\ the\ button\ and\ passes\ it\ to\ the\ controller's\ process\ method\r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ This\ is\ how\ the\ Model\ talks\ to\ the\ View\r\n\ This\ method\ gets\ called\ BY\ THE\ MODEL,\ whenever\ the\ model\ changes\r\n\ It\ fetches\ th\ title,\ display1\ and\ display2\ variables\ from\ the\ model\r\n\ and\ displays\ them\ in\ the\ GUI\r\n
+numComments=5

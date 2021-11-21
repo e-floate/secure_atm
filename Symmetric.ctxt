@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Symmetric
+comment0.text=\r\n\ The\ symmetric\ class\ handles\ the\ symmetric\ encryption\ of\ data\r\n\ A\ modified\ version\ of\ code\ from\ https\://www.geeksforgeeks.org/symmetric-encryption-cryptography-in-java/\r\n
+comment1.params=
+comment1.target=Symmetric()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Symmetric\r\n
+comment2.params=
+comment2.target=javax.crypto.SecretKey\ createAESKey()
+comment2.text=\r\n\ Generates\ a\ 256\ bit\ key,\ uses\ the\ SecureRandom\ class\r\n\ to\ generate\ cryptographically\ strong\ random\ number\ \r\n
+comment3.params=
+comment3.target=void\ keyGenerator()
+comment3.text=\r\n\ Creates\ a\ key\ generator\ using\ AES\ encryption\r\n
+comment4.params=
+comment4.target=byte[]\ createInitializationVector()
+comment4.text=\ Function\ to\ initialize\ a\ vector\r\n\ with\ an\ arbitrary\ value\r\n\ \r\n\ Used\ to\ make\ the\ encryption\ stronger\ \r\n
+comment5.params=cipher\ key\ ivPar
+comment5.target=void\ cipherEncrypt(javax.crypto.Cipher,\ javax.crypto.SecretKey,\ javax.crypto.spec.IvParameterSpec)
+comment5.text=\r\n\ Method\ that\ initialises\ the\ cipher\r\n
+comment6.params=plainText\ secretKey\ initializationVector
+comment6.target=byte[]\ do_AESEncryption(java.lang.String,\ javax.crypto.SecretKey,\ byte[])
+comment6.text=\r\n\ Method\ that\ takes\ the\ plain\ text,\ secret\ key,\ and\r\n\ initialisation\ vector\ and\ creates\ returns\ ciphertext\r\n
+numComments=7
